@@ -33,7 +33,7 @@ function App() {
     <>
       {" "}
       <header className="header">
-        <img src="/tacori_logo.png" />
+        <img src="http://mmstaging.tacori.com/tacori_logo.png" />
       </header>
       <div className="builder-component-container">
         <BuilderComponent model="page" content={pageContents} />
