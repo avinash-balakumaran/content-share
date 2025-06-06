@@ -31,7 +31,13 @@ function App() {
 
   return (
     <>
-      <BuilderComponent model="page" content={pageContents} />
+      {" "}
+      <header className="header">
+        <img src="/tacori_logo.png" />
+      </header>
+      <div className="builder-component-container">
+        <BuilderComponent model="page" content={pageContents} />
+      </div>
     </>
   );
 }
